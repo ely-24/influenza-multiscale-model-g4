@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Project-specific (Data)
+# =========================
+
+# Raw and external data (do not version)
+data/raw/*
+data/external/*
+
+# Keep folder structure
+!data/raw/README.md
+!data/external/README.md
+
+# Processed data (optional: ignore if large)
+# data/processed/*
